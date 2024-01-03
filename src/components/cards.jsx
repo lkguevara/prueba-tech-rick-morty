@@ -1,6 +1,7 @@
-import Card from './card'
+import Card from './Card'
+import PropTypes from 'prop-types';
 
-const cards = ({personajes}) => {
+const Cards = ({personajes}) => {
   return (
     <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 p-6 justify-items-center">
          
@@ -19,4 +20,8 @@ const cards = ({personajes}) => {
   ) 
 }
 
-export default cards
+Cards.propTypes = {
+  personajes: PropTypes.array.isRequired,
+};
+
+export default Cards
