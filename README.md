@@ -25,7 +25,5 @@ Una vez que hayas instalado las dependencias puedes ejecutar el proyecto usando 
 ## Demo
 Puedes ver el demo del proyecto en el siguiente enlace: [Demo](https://prueba-tech-rick-morty.vercel.app/)
 
-## Imagenes del Proyecto
-![Home](src/assets/images/home.png)
 
 
