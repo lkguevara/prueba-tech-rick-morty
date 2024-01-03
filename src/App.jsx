@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Cards from "./components/cards"
+import Cards from "./components/Cards"
 import logo from "./assets/rick.svg"
 import Pagination from "./components/Pagination";
 
